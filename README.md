@@ -43,13 +43,13 @@ for await (const answer of survey()) {
 Run your survey from the terminal:
 
 ```bash
-surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' --type select --options 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 100
+npm run cli -- --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' --type select --options 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10
 ```
 
 You can also export the data to a specific place with --path:
 
 ```bash
-surveyor --question 'Your Question' --type select --options 'Option1, Option2' --amount 100 --path ./path/to/export.csv
+npm run cli -- --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' --type select --options 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10 --path ./path/to/export.csv
 ```
 
 ### 📦 API Documentation
