@@ -1,0 +1,103 @@
+{
+    "age": {
+        "0-5": 0.048,
+        "5-10": 0.046,
+        "10-15": 0.046,
+        "15-20": 0.046,
+        "20-25": 0.055,
+        "25-35": 0.127,
+        "35-45": 0.126,
+        "45-55": 0.137,
+        "55-65": 0.155,
+        "65-75": 0.109,
+        "75-85": 0.08,
+        "85-95": 0.024,
+        "95-110": 0.001
+    },
+    "citizenship": {
+        "german": 0.74,
+        "foreign": 0.26
+    },
+    "sex": {
+        "male": 0.495,
+        "female": 0.505
+    },
+    "ethnicity": {
+        "german": 1.00
+    },
+    "net-income": {
+        "0": 0.079,
+        "0-6000": 0.105,
+        "6000-12000": 0.166,
+        "12000-18000": 0.20,
+        "18000-24000": 0.166,
+        "24000-30000": 0.13,
+        "30000-36000": 0.061,
+        "36000-42000": 0.037,
+        "42000-48000": 0.026,
+        "48000-54000": 0.02,
+        "54000-60000": 0.014,
+        "66000-2000000": 0.025
+    },
+    "residency": {
+        "Baden-Württemberg": 0.133,
+        "Bavaria": 0.158,
+        "Berlin": 0.044,
+        "Brandenburg": 0.030,
+        "Bremen": 0.008,
+        "Hamburg": 0.022,
+        "Hesse": 0.076,
+        "Mecklenburg-Vorpommern": 0.019,
+        "Lower-Saxony": 0.096,
+        "North Rhine-Westphalia": 0.215,
+        "Rhineland-Palatinate": 0.049,
+        "Saarland": 0.012,
+        "Saxony": 0.048,
+        "Saxony-Anhalt": 0.026,
+        "Schleswig-Holstein": 0.035,
+        "Thuringia": 0.025
+    },
+    "education": {
+        "primary": 0.142,
+        "secondary": 0.499,
+        "tertiary": 0.359
+    },
+    "religion": {
+        "no-religion": 0.407,
+        "catholicism": 0.267,
+        "protestantism": 0.243,
+        "islam": 0.035,
+        "orthodox": 0.019,
+        "other-christian": 0.011,
+        "other-religion": 0.009
+    },
+    "occupation": {
+        "agriculture, forestry and fishing": 0.03753144033453734,
+        "mining and quarrying": 0.010852720863674954,
+        "manufacturing": 0.26333475200500284,
+        "electricity, gas, steam and air conditioning supply": 0.007526633608302244,
+        "water supply, sewerage, waste management and remediation activities": 0.00838386889301376,
+        "construction": 0.06058384041408348,
+        "wholesale and retail trade, repair of motor vehicles and motorcycles": 0.08108335465654049,
+        "transportation and storage": 0.032640976983602805,
+        "accomodation and food service activities": 0.03652290903051171,
+        "information and communication": 0.03332958461297277,
+        "financial and insurance activities": 0.013971100057603969,
+        "real estate activities": 0.00910789228270833,
+        "professional, scientific and technical activities": 0.10603698082194692,
+        "administrative and support service activities": 0.05962696624532519,
+        "public administration and defence, compulsory social security": 0.06285816806701673,
+        "education": 0.02910947681392422,
+        "human health and social work activities": 0.06603847556860624,
+        "arts, entertainment and recreation": 0.03326916109935509,
+        "other service activities": 0.045735871738051666,
+        "activities of households as employers, undifferentiated goods and services": 0.0017427000867797976,
+        "activities of extraterritorial organisations and bodies": 0.0007131256788246557
+    },
+    "martial-status": {
+        "single": 0.4486434232237295,
+        "married": 0.4101573344205934,
+        "widowed": 0.0659332521681633,
+        "divorces": 0.0752659901875138
+    }
+}

@@ -1,0 +1,101 @@
+answer,age,citizenship,sex,education,ethnicity,net-income,residency,occupation,religion,martial-status
+CDU/CSU,45-55,foreign,male,secondary,german,18000-24000,North Rhine-Westphalia,manufacturing,no-religion,married
+Grüne,25-35,german,male,secondary,german,12000-18000,Bavaria,administrative and support service activities,no-religion,widowed
+CDU/CSU,75-85,german,female,secondary,german,0-6000,Rhineland-Palatinate,information and communication,catholicism,married
+CDU/CSU,25-35,german,male,primary,german,12000-18000,Baden-Württemberg,transportation and storage,catholicism,married
+CDU/CSU,65-75,german,male,primary,german,30000-36000,Hesse,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,married
+CDU/CSU,45-55,german,female,secondary,german,12000-18000,Brandenburg,accomodation and food service activities,protestantism,married
+Grüne,65-75,foreign,female,secondary,german,0-6000,Bavaria,transportation and storage,no-religion,single
+AfD,45-55,german,male,primary,german,36000-42000,Thuringia,manufacturing,no-religion,single
+Grüne,35-45,german,female,secondary,german,24000-30000,North Rhine-Westphalia,accomodation and food service activities,no-religion,divorces
+Grüne,55-65,german,male,secondary,german,12000-18000,Baden-Württemberg,education,no-religion,single
+SPD,35-45,german,female,primary,german,18000-24000,Baden-Württemberg,manufacturing,no-religion,single
+CDU/CSU,25-35,german,male,secondary,german,24000-30000,Schleswig-Holstein,manufacturing,catholicism,married
+CDU/CSU,55-65,german,male,secondary,german,0,Baden-Württemberg,transportation and storage,no-religion,single
+CDU/CSU,45-55,german,male,tertiary,german,0-6000,Bavaria,administrative and support service activities,protestantism,married
+CDU/CSU,45-55,german,male,primary,german,6000-12000,Lower-Saxony,accomodation and food service activities,protestantism,single
+CDU/CSU,45-55,german,male,secondary,german,30000-36000,Baden-Württemberg,construction,catholicism,single
+Grüne,65-75,german,female,secondary,german,24000-30000,Baden-Württemberg,other service activities,no-religion,widowed
+CDU/CSU,55-65,german,female,tertiary,german,12000-18000,North Rhine-Westphalia,manufacturing,no-religion,single
+Grüne,20-25,foreign,female,secondary,german,0-6000,Bavaria,"arts, entertainment and recreation",no-religion,married
+CDU/CSU,45-55,german,female,primary,german,24000-30000,Schleswig-Holstein,construction,no-religion,single
+CDU/CSU,25-35,german,male,secondary,german,12000-18000,Schleswig-Holstein,manufacturing,protestantism,married
+CDU/CSU,55-65,german,male,tertiary,german,12000-18000,Saxony,information and communication,catholicism,single
+Grüne,55-65,german,female,tertiary,german,24000-30000,Lower-Saxony,"arts, entertainment and recreation",no-religion,married
+CDU/CSU,55-65,foreign,female,primary,german,6000-12000,Saxony,construction,islam,married
+CDU/CSU,25-35,german,male,tertiary,german,36000-42000,Baden-Württemberg,"public administration and defence, compulsory social security",N/A,married
+CDU/CSU,0-5,german,female,tertiary,german,12000-18000,North Rhine-Westphalia,manufacturing,catholicism,married
+Die Linke,55-65,german,female,tertiary,german,0-6000,Saxony-Anhalt,transportation and storage,no-religion,single
+AfD,35-45,german,male,secondary,german,12000-18000,Saxony-Anhalt,transportation and storage,no-religion,single
+Grüne,35-45,german,female,secondary,german,24000-30000,Hesse,"professional, scientific and technical activities",orthodox,single
+SPD,55-65,german,male,primary,german,18000-24000,North Rhine-Westphalia,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,divorces
+CDU/CSU,55-65,german,male,secondary,german,30000-36000,Bavaria,other service activities,catholicism,single
+Grüne,0-5,german,male,tertiary,german,6000-12000,Rhineland-Palatinate,"agriculture, forestry and fishing",no-religion,single
+Grüne,25-35,german,male,tertiary,german,18000-24000,Baden-Württemberg,"arts, entertainment and recreation",no-religion,single
+Grüne,35-45,foreign,female,secondary,german,6000-12000,Hesse,manufacturing,no-religion,married
+CDU/CSU,45-55,german,male,secondary,german,6000-12000,Hesse,"water supply, sewerage, waste management and remediation activities",protestantism,single
+Grüne,25-35,german,male,secondary,german,0,North Rhine-Westphalia,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,married
+Die Linke,15-20,foreign,male,primary,german,12000-18000,Berlin,human health and social work activities,no-religion,single
+Grüne,25-35,german,female,secondary,german,36000-42000,Lower-Saxony,education,catholicism,single
+Die Linke,35-45,german,female,primary,german,12000-18000,Thuringia,real estate activities,no-religion,single
+CDU/CSU,65-75,foreign,male,secondary,german,0,Saxony-Anhalt,transportation and storage,catholicism,divorces
+CDU/CSU,35-45,german,female,tertiary,german,12000-18000,North Rhine-Westphalia,manufacturing,orthodox,married
+SPD,75-85,german,male,tertiary,german,12000-18000,Hamburg,"wholesale and retail trade, repair of motor vehicles and motorcycles",islam,single
+CDU/CSU,0-5,german,male,secondary,german,24000-30000,North Rhine-Westphalia,financial and insurance activities,catholicism,single
+AfD,35-45,german,female,primary,german,12000-18000,Saxony,"agriculture, forestry and fishing",protestantism,married
+CDU/CSU,75-85,german,male,tertiary,german,6000-12000,North Rhine-Westphalia,"agriculture, forestry and fishing",protestantism,married
+CDU/CSU,65-75,german,male,secondary,german,12000-18000,Hesse,"wholesale and retail trade, repair of motor vehicles and motorcycles",orthodox,single
+CDU/CSU,55-65,german,male,secondary,german,54000-60000,Bavaria,"agriculture, forestry and fishing",no-religion,married
+CDU/CSU,55-65,german,female,secondary,german,12000-18000,Schleswig-Holstein,financial and insurance activities,protestantism,married
+CDU/CSU,65-75,foreign,male,primary,german,30000-36000,Baden-Württemberg,manufacturing,no-religion,divorces
+Grüne,75-85,german,female,tertiary,german,6000-12000,North Rhine-Westphalia,manufacturing,no-religion,divorces
+CDU/CSU,35-45,german,male,secondary,german,12000-18000,Lower-Saxony,construction,no-religion,married
+CDU/CSU,25-35,german,female,tertiary,german,36000-42000,North Rhine-Westphalia,"public administration and defence, compulsory social security",catholicism,married
+Grüne,65-75,german,female,secondary,german,18000-24000,Hesse,manufacturing,no-religion,single
+Grüne,25-35,foreign,female,tertiary,german,18000-24000,North Rhine-Westphalia,other service activities,no-religion,single
+Grüne,15-20,foreign,female,primary,german,12000-18000,Bavaria,"professional, scientific and technical activities",no-religion,divorces
+CDU/CSU,45-55,german,male,secondary,german,18000-24000,Saarland,financial and insurance activities,no-religion,married
+CDU/CSU,75-85,foreign,female,secondary,german,0-6000,North Rhine-Westphalia,human health and social work activities,catholicism,single
+Grüne,55-65,german,male,primary,german,6000-12000,Hesse,"arts, entertainment and recreation",no-religion,single
+CDU/CSU,45-55,german,male,tertiary,german,6000-12000,Brandenburg,administrative and support service activities,protestantism,married
+Grüne,20-25,german,female,tertiary,german,6000-12000,Hesse,"arts, entertainment and recreation",no-religion,single
+CDU/CSU,75-85,foreign,female,primary,german,36000-42000,Lower-Saxony,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,single
+Grüne,15-20,german,female,tertiary,german,6000-12000,Berlin,human health and social work activities,no-religion,married
+CDU/CSU,15-20,german,female,secondary,german,12000-18000,North Rhine-Westphalia,"wholesale and retail trade, repair of motor vehicles and motorcycles",catholicism,single
+CDU/CSU,45-55,german,female,tertiary,german,36000-42000,Saxony-Anhalt,"wholesale and retail trade, repair of motor vehicles and motorcycles",protestantism,single
+Grüne,20-25,german,female,secondary,german,24000-30000,Lower-Saxony,manufacturing,other-religion,married
+CDU/CSU,25-35,german,male,secondary,german,12000-18000,North Rhine-Westphalia,"public administration and defence, compulsory social security",catholicism,single
+CDU/CSU,55-65,foreign,male,secondary,german,36000-42000,Bavaria,manufacturing,protestantism,married
+Die Linke,25-35,german,female,tertiary,german,18000-24000,Hesse,manufacturing,no-religion,single
+CDU/CSU,55-65,german,male,tertiary,german,12000-18000,Saxony,manufacturing,protestantism,widowed
+CDU/CSU,65-75,german,male,secondary,german,18000-24000,North Rhine-Westphalia,manufacturing,catholicism,single
+Grüne,25-35,german,female,tertiary,german,0-6000,Saxony,accomodation and food service activities,no-religion,divorces
+Die Linke,55-65,german,female,tertiary,german,0-6000,Brandenburg,manufacturing,no-religion,married
+Grüne,75-85,foreign,male,tertiary,german,18000-24000,Thuringia,human health and social work activities,no-religion,married
+SPD,45-55,foreign,female,primary,german,18000-24000,Schleswig-Holstein,administrative and support service activities,no-religion,married
+CDU/CSU,25-35,german,female,secondary,german,6000-12000,Bavaria,"wholesale and retail trade, repair of motor vehicles and motorcycles",orthodox,married
+CDU/CSU,55-65,german,male,secondary,german,6000-12000,Rhineland-Palatinate,"agriculture, forestry and fishing",no-religion,single
+Grüne,35-45,german,male,tertiary,german,0-6000,Bavaria,accomodation and food service activities,no-religion,divorces
+Grüne,65-75,foreign,female,primary,german,18000-24000,Baden-Württemberg,information and communication,no-religion,married
+CDU/CSU,75-85,foreign,male,primary,german,18000-24000,Lower-Saxony,"professional, scientific and technical activities",protestantism,single
+Grüne,55-65,german,female,secondary,german,6000-12000,North Rhine-Westphalia,"arts, entertainment and recreation",catholicism,married
+Grüne,55-65,foreign,male,secondary,german,30000-36000,Lower-Saxony,"arts, entertainment and recreation",no-religion,married
+Grüne,20-25,german,female,primary,german,6000-12000,Schleswig-Holstein,manufacturing,protestantism,single
+CDU/CSU,55-65,german,male,secondary,german,0-6000,Bavaria,manufacturing,no-religion,divorces
+CDU/CSU,45-55,german,male,tertiary,german,0-6000,Baden-Württemberg,manufacturing,protestantism,married
+CDU/CSU,45-55,german,male,primary,german,12000-18000,Bavaria,"wholesale and retail trade, repair of motor vehicles and motorcycles",catholicism,married
+CDU/CSU,0-5,german,female,secondary,german,0-6000,Thuringia,information and communication,protestantism,married
+CDU/CSU,25-35,german,male,tertiary,german,12000-18000,Bavaria,manufacturing,no-religion,married
+Grüne,45-55,german,male,tertiary,german,6000-12000,Baden-Württemberg,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,single
+CDU/CSU,75-85,foreign,female,tertiary,german,0,Bavaria,human health and social work activities,catholicism,widowed
+CDU/CSU,35-45,german,female,secondary,german,0-6000,Bavaria,construction,no-religion,married
+Grüne,25-35,german,male,secondary,german,0-6000,Bavaria,"professional, scientific and technical activities",no-religion,divorces
+CDU/CSU,55-65,german,female,secondary,german,24000-30000,North Rhine-Westphalia,administrative and support service activities,no-religion,married
+CDU/CSU,25-35,german,male,secondary,german,42000-48000,Hamburg,manufacturing,protestantism,single
+CDU/CSU,85-95,german,male,tertiary,german,18000-24000,Hamburg,"wholesale and retail trade, repair of motor vehicles and motorcycles",catholicism,single
+CDU/CSU,25-35,german,male,tertiary,german,30000-36000,Bavaria,education,catholicism,single
+CDU/CSU,20-25,german,female,secondary,german,0,Bavaria,accomodation and food service activities,protestantism,married
+Die Linke,45-55,german,female,tertiary,german,24000-30000,Saxony,"wholesale and retail trade, repair of motor vehicles and motorcycles",no-religion,single
+CDU/CSU,5-10,german,male,secondary,german,18000-24000,Bavaria,construction,no-religion,single
+Grüne,0-5,german,female,tertiary,german,0,Schleswig-Holstein,administrative and support service activities,no-religion,single
+CDU/CSU,15-20,german,male,tertiary,german,0,Baden-Württemberg,transportation and storage,catholicism,married
