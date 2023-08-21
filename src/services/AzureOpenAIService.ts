@@ -9,8 +9,8 @@ export const chat = async <T extends ZodType>(
     schema: string,
 ): Promise<z.infer<T>> => {
     const client = new OpenAIClient(
-        "https://upskilling-fun-with-ai.openai.azure.com/",
-        new AzureKeyCredential("40bc721c6f474c8492c7193634855f75")
+        process.env.AZURE_OPENAI_ENDPOINT || "https://api.openai.com",
+        new AzureKeyCredential(process.env.AZURE_OPENAI_KEY || "")
     );
     const validate = ajv.compile(JSON.parse(schema))
 
