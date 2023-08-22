@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r dotenv/config **/*.test.ts",
-    "cli": "ts-node --esm ./src/cli.ts "
+    "cli": "ts-node --esm ./src/cli.ts",
+    "build": "npx tsc -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
