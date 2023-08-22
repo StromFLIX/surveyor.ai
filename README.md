@@ -57,13 +57,13 @@ for await (const answer of survey()) {
 Run your survey from the terminal:
 
 ```bash
-surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10
+AZURE_OPENAI_ENDPOINT=<YOUR-ENDPOINT> AZURE_OPENAI_KEY=<YOUR-KEY> surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10
 ```
 
 You can also export the data to a specific place with --path:
 
 ```bash
-surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10 --path ./path/to/export.csv
+AZURE_OPENAI_ENDPOINT=<YOUR-ENDPOINT> AZURE_OPENAI_KEY=<YOUR-KEY>  surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10 --path ./path/to/export.csv
 ```
 
 ### 📦 API Documentation
