@@ -14,7 +14,7 @@ console.log(figlet.textSync("Surveyor.ai CLI"));
 
 // Shared option for all sub-commands
 program
-    .version("1.0.0")
+    .version("1.1.0")
     .description("Creating surveys with gpt like a boss")
     .option("-q, --question <value>", "Ask a question")
     .option("-c, --context  [value]", "Give context to your question")

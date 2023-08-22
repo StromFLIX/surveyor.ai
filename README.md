@@ -75,6 +75,14 @@ AZURE_OPENAI_ENDPOINT=<YOUR-ENDPOINT> AZURE_OPENAI_KEY=<YOUR-KEY>  surveyor --qu
   - .question(string)
   - .region(enum)
   - .type(enum)
+  - .aiChatServiceOptions({
+        type: enum(["AzureOpenAI", "OpenAI"]),
+        temperature: number(0, 1),
+        model: string,
+        endpoint: string,
+        key: string,
+        deploymentName: string
+    })
   - .demographics(bool)
   - .amount(number)
   - .build()
