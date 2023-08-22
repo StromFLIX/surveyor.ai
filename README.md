@@ -14,7 +14,7 @@
 - Built-in Demographics: Collect demographic data seamlessly.
 - Powered by ChatGPT: Leverage the intelligence of ChatGPT for smarter, conversational surveys.
   
-### 📚 Install
+### ⚙️ Install
 
 #### As a Library
 
