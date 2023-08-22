@@ -1,9 +1,10 @@
 {
-  "name": "persona-survey-tooling",
-  "version": "1.0.0",
+  "name": "surveyor.ai",
+  "version": "1.0.4",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "mocha -r dotenv/config **/*.test.ts",
     "cli": "ts-node --esm ./src/cli.ts",

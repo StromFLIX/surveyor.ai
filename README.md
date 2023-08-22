@@ -21,7 +21,7 @@
 Creating a survey is as simple as:
 
 ```ts
-const { SurveyBuilder, SurveyRegions, QuestionTypes } = require('[your-package-name]');
+import { SurveyBuilder, QuestionTypes, SurveyRegions, use } from "surveyor.ai"
 
 const survey = new SurveyBuilder()
     .context("Recently the covid pandemic has been spreading across the world.")
