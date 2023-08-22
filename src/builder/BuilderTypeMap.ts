@@ -1,7 +1,7 @@
-import { QuestionTypes } from "../enums/QuestionTypes";
-import { SurveyBuilderOptions } from "./SurveyBuilder";
-import { SurveyRatingBuilder } from "./SurveyRatingBuilder";
-import { SurveySelectBuilder } from "./SurveySelectBuilder";
+import { QuestionTypes } from "../enums/QuestionTypes.js";
+import { SurveyBuilderOptions } from "./SurveyBuilder.js";
+import { SurveyRatingBuilder } from "./SurveyRatingBuilder.js";
+import { SurveySelectBuilder } from "./SurveySelectBuilder.js";
 
 type TypeMap = {
     [QuestionTypes.SELECT]: new (options?: SurveyBuilderOptions) => SurveySelectBuilder,

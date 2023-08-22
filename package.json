@@ -5,11 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r dotenv/config",
-    "build": "tsc -p tsconfig.json && node postBuild.js",
-    "start": "node ./dist",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "cli": "npm run build && node ./dist/src/cli.js"
+    "test": "mocha -r dotenv/config **/*.test.ts",
+    "cli": "ts-node --esm ./src/cli.ts "
   },
   "author": "",
   "license": "ISC",

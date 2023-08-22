@@ -1,4 +1,4 @@
-import { Persona } from "../persona/persona"
+import { Persona } from "../persona/persona.js"
 
 export function getSystemMessage(newPersona : Persona): string {
     return "You will be part of a poll and will play the role of a " +

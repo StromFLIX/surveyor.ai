@@ -1,7 +1,7 @@
-import { use } from './builder/BuilderTypeMap'
-import { SurveyBuilder } from './builder/SurveyBuilder'
-import { QuestionTypes }  from './enums/QuestionTypes'
-import { SurveyRegions } from './enums/SurveyRegions'
+import { use } from './builder/BuilderTypeMap.js'
+import { SurveyBuilder } from './builder/SurveyBuilder.js'
+import { QuestionTypes }  from './enums/QuestionTypes.js'
+import { SurveyRegions } from './enums/SurveyRegions.js'
 
 export {
   SurveyBuilder,

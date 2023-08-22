@@ -1,4 +1,4 @@
-import { SurveyRegions } from "../enums/SurveyRegions";
+import { SurveyRegions } from "../enums/SurveyRegions.js";
 
 export interface SurveyBuilderOptions {
     question: string | undefined,

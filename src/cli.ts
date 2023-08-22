@@ -1,6 +1,6 @@
 import { Command } from "commander";
 import figlet from "figlet";
-import { QuestionTypes, SurveyBuilder, SurveyRegions, use } from "./index";
+import { QuestionTypes, SurveyBuilder, SurveyRegions, use } from "./index.js";
 import { promises as fs } from 'fs';
 import { stringify } from 'csv';
 import { Persona } from "./persona/persona";

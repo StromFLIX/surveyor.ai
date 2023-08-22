@@ -1,11 +1,11 @@
 import { z } from "zod";
 import PQueue from 'p-queue';
-import { getPersona, Persona } from '../persona/persona';
-import { getSystemMessage } from '../prompts/system';
-import { generate } from '../prompts/user';
+import { getPersona, Persona } from '../persona/persona.js';
+import { getSystemMessage } from '../prompts/system.js';
+import { generate } from '../prompts/user.js';
 import { zodToJsonSchema } from 'zod-to-json-schema';
-import * as OpenAIService from "../services/OpenAIService";
-import * as AzureOpenAIService from "../services/AzureOpenAIService";
+import * as OpenAIService from "../services/OpenAIService.js";
+import * as AzureOpenAIService from "../services/AzureOpenAIService.js";
 import { EventIterator } from "event-iterator";
 import retry from 'async-retry';
 

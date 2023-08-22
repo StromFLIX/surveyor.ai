@@ -1,6 +1,7 @@
-import { QuestionTypes } from "../enums/QuestionTypes";
-import { answerSelectQuestion } from "../surveys/answerSeletctQuestions";
-import { SurveyBuilder } from "./SurveyBuilder"; import { z } from 'zod';
+import { QuestionTypes } from "../enums/QuestionTypes.js";
+import { answerSelectQuestion } from "../surveys/answerSeletctQuestions.js";
+import { SurveyBuilder } from "./SurveyBuilder.js"; 
+import { z } from 'zod';
 
 const buildSchema = z.object({
     question: z.string(),
