@@ -19,6 +19,11 @@ program
     .option("-q, --question <value>", "Ask a question")
     .option("-c, --context  [value]", "Give context to your question")
     .option("-r, --region [value]", "Region to use e.g. 'germany'")
+    .option("--ai:temperature [value]", "Temperature of the model")
+    .option("--ai:key [value]", "Key to access ai service")
+    .option("--ai:endpoint [value]", "Endpoint relevant for AzureOpenAI")
+    .option("--ai:deploymentName [value]", "DeploymentName relevant for AzureOpenAI")
+    .option("--ai:type [value]", "'OpenAI' or 'AzureOpenAI'")
     .option("-p, --path [value]", "Path to save the output to", "./output.csv")
     .option("-a, --amount [value]", "Amount of answers to generate");
 
@@ -33,6 +38,14 @@ program
             .context(options.context)
             .question(options.question)
             .region(options.region as SurveyRegions)
+            .aiChatServiceOptions({
+                type: options["ai:type"] ?? "OpenAI",
+                temperature: options["ai:temperature"],
+                model: options["ai:model"],
+                endpoint: options["ai:endpoint"],
+                key: options["ai:key"],
+                deploymentName: options["ai:deploymentName"]
+            })
             .type(use[QuestionTypes.SELECT])
             .options(surveyOptions)
             .amount(amount)

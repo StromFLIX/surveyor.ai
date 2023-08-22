@@ -4,22 +4,23 @@ import { getPersona, Persona } from '../persona/persona.js';
 import { getSystemMessage } from '../prompts/system.js';
 import { generate } from '../prompts/user.js';
 import { zodToJsonSchema } from 'zod-to-json-schema';
-import * as OpenAIService from "../services/OpenAIService.js";
-import * as AzureOpenAIService from "../services/AzureOpenAIService.js";
+import * as AIChatService from "../services/AIChatService.js";
+import { ChatServiceOptions } from "../services/AIChatService.js"
 import { EventIterator } from "event-iterator";
 import retry from 'async-retry';
 
 export function answerSelectQuestion(
     question: string,
     personaAmount: number,
-    options: string[]): AsyncIterable<{ answer: string, persona: Persona }> {
+    responseOptions: string[],
+    options: z.infer<typeof ChatServiceOptions>): AsyncIterable<{ answer: string, persona: Persona }> {
     const queue = new PQueue({ concurrency: 10 });
 
     for (let i = 0; i < personaAmount; i++) {
         queue.add(async () => {
             const newPersona = getPersona();
             const systemMessage = getSystemMessage(newPersona);
-            const shuffledOptions = options.sort(() => Math.random() - 0.5);
+            const shuffledOptions = responseOptions.sort(() => Math.random() - 0.5);
             const responseSchema = z.object({
                 answer: z.enum(shuffledOptions as [string, ...string[]]),
             })
@@ -29,7 +30,7 @@ export function answerSelectQuestion(
                 question,
             );
             const response = await retry(
-                async () => await AzureOpenAIService.chat<typeof responseSchema>(systemMessage, userPrompt, stringSchema),
+                async () => await AIChatService.chat<typeof responseSchema>(systemMessage, userPrompt, stringSchema, options),
                 { retries: 3, minTimeout: 1000, maxTimeout: 10000, randomize: true }
             )
             
