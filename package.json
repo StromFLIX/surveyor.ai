@@ -1,6 +1,6 @@
 {
   "name": "surveyor.ai",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "type": "module",
   "main": "dist/src/index.js",
@@ -21,7 +21,6 @@
     "@types/figlet": "^1.5.6",
     "@types/lodash": "^4.14.197",
     "@types/mocha": "^10.0.1",
-    "dotenv": "^16.3.1",
     "mocha": "^10.2.0",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",

@@ -6,9 +6,7 @@ import { promises as fs } from 'fs';
 import { stringify } from 'csv';
 import { Persona } from "./persona/persona";
 import _ from "lodash";
-import dotenv from "dotenv";
 import cliProgress from 'cli-progress';
-dotenv.config();
 
 const program = new Command();
 
