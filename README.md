@@ -14,6 +14,20 @@
 - Built-in Demographics: Collect demographic data seamlessly.
 - Powered by ChatGPT: Leverage the intelligence of ChatGPT for smarter, conversational surveys.
   
+### 📚 Install
+
+#### As a Library
+
+```bash
+npm install surveyor.ai
+```
+
+#### As a CLI Tool
+
+```bash
+npm install -g surveyor.ai
+```
+
 ### 📚 How to Use
 
 #### As a Library
@@ -43,13 +57,13 @@ for await (const answer of survey()) {
 Run your survey from the terminal:
 
 ```bash
-npm run cli -- --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10
+surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10
 ```
 
 You can also export the data to a specific place with --path:
 
 ```bash
-npm run cli -- --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10 --path ./path/to/export.csv
+surveyor --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?' select 'CDU/CSU, SPD, Grüne, FPD, Die Linke, AfD, Sonstige' --amount 10 --path ./path/to/export.csv
 ```
 
 ### 📦 API Documentation
