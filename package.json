@@ -8,7 +8,8 @@
   "scripts": {
     "test": "mocha -r dotenv/config **/*.test.ts",
     "cli": "ts-node --esm ./src/cli.ts",
-    "build": "npx tsc -p tsconfig.json"
+    "build": "npx tsc -p tsconfig.json",
+    "data-transform": "node ./data/eu-generation/index.js"
   },
   "bin": {
     "surveyor": "./dist/src/cli.js"

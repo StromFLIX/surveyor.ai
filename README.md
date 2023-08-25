@@ -68,7 +68,7 @@ AZURE_OPENAI_ENDPOINT=<YOUR-ENDPOINT> AZURE_OPENAI_KEY=<YOUR-KEY> surveyor \
 You can also export the data to a specific place with --path:
 
 ```bash
-AZURE_OPENAI_ENDPOINT=<YOUR-ENDPOINT> AZURE_OPENAI_KEY=<YOUR-KEY> surveyor \
+AZURE_OPENAI_ENDPOINT=https://upskilling-fun-with-ai.openai.azure.com/ AZURE_OPENAI_KEY=dbe63bb0f6a740bd81e3ffcce0e28840 surveyor \
   --question 'Wenn am nächsten Sonntag Bundestagswahl wäre, wen würden Sie wählen?'  \
   --amount 10  \
   --ai:type 'AzureOpenAI'  \

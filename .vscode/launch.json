@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm run data-transform",
+            "name": "Data Transform",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "command": "npm run cli -- --question 'What is the best color?' select 'Red, Green, Blue'",
             "name": "CLI",
             "request": "launch",
